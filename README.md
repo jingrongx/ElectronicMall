@@ -99,39 +99,28 @@ php -S localhost:8000 -t public
 
 以下是系统主要页面的截图，按时间顺序排列：
 
-![首页](homepage.png)  
+<img src="homepage.png" style="border:1px solid black">  
 *首页 - 2025-01-08 12:32:09*
 
-
-![商品分类](categories.png)  
+<img src="categories.png" style="border:1px solid black">  
 *商品分类页 - 2025-01-08 12:38:53*
 
-
-![商品详情](product-detail.png)  
+<img src="product-detail.png" style="border:1px solid black">  
 *商品详情页 - 2025-01-08 12:39:18*
 
-
-![购物车](cart.png)  
+<img src="cart.png" style="border:1px solid black">  
 *购物车页面 - 2025-01-08 12:39:28*
 
-
-![支付页面](Snipaste_2025-01-08_12-39-28.png)
-*支付页面 - 2025-01-08 12:39:28*
-
-
-![订单确认](Snipaste_2025-01-08_12-40-02.png)  
+<img src="Snipaste_2025-01-08_12-40-02.png" style="border:1px solid black">  
 *订单确认页 - 2025-01-08 12:40:02*
 
+<img src="Snipaste_2025-01-08_12-40-18.png" style="border:1px solid black">  
+*支付页面 - 2025-01-08 12:40:18*
 
-![订单页面](Snipaste_2025-01-08_12-40-18.png)  
-*订单页面 - 2025-01-08 12:40:18*
-
-
-![后台管理](Snipaste_2025-01-08_12-41-17.png)  
+<img src="Snipaste_2025-01-08_12-41-17.png" style="border:1px solid black">  
 *后台管理首页 - 2025-01-08 12:41:17*
 
-
-![订单管理](Snipaste_2025-01-08_12-41-45.png)  
+<img src="Snipaste_2025-01-08_12-41-45.png" style="border:1px solid black">  
 *后台订单管理 - 2025-01-08 12:41:45*
 
 ## 关注我们
