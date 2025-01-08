@@ -99,29 +99,77 @@ php -S localhost:8000 -t public
 
 以下是系统主要页面的截图，按时间顺序排列：
 
-<img src="homepage.png" style="border:1px solid black">  
-*首页 - 2025-01-08 12:32:09*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="homepage.png"></td>
+  </tr>
+  <tr>
+    <td>*首页 - 2025-01-08 12:32:09*</td>
+  </tr>
+</table>
 
-<img src="categories.png" style="border:1px solid black">  
-*商品分类页 - 2025-01-08 12:38:53*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="categories.png"></td>
+  </tr>
+  <tr>
+    <td>*商品分类页 - 2025-01-08 12:38:53*</td>
+  </tr>
+</table>
 
-<img src="product-detail.png" style="border:1px solid black">  
-*商品详情页 - 2025-01-08 12:39:18*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="product-detail.png"></td>
+  </tr>
+  <tr>
+    <td>*商品详情页 - 2025-01-08 12:39:18*</td>
+  </tr>
+</table>
 
-<img src="cart.png" style="border:1px solid black">  
-*购物车页面 - 2025-01-08 12:39:28*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="cart.png"></td>
+  </tr>
+  <tr>
+    <td>*购物车页面 - 2025-01-08 12:39:28*</td>
+  </tr>
+</table>
 
-<img src="Snipaste_2025-01-08_12-40-02.png" style="border:1px solid black">  
-*订单确认页 - 2025-01-08 12:40:02*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="Snipaste_2025-01-08_12-40-02.png"></td>
+  </tr>
+  <tr>
+    <td>*订单确认页 - 2025-01-08 12:40:02*</td>
+  </tr>
+</table>
 
-<img src="Snipaste_2025-01-08_12-40-18.png" style="border:1px solid black">  
-*支付页面 - 2025-01-08 12:40:18*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="Snipaste_2025-01-08_12-40-18.png"></td>
+  </tr>
+  <tr>
+    <td>*支付页面 - 2025-01-08 12:40:18*</td>
+  </tr>
+</table>
 
-<img src="Snipaste_2025-01-08_12-41-17.png" style="border:1px solid black">  
-*后台管理首页 - 2025-01-08 12:41:17*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="Snipaste_2025-01-08_12-41-17.png"></td>
+  </tr>
+  <tr>
+    <td>*后台管理首页 - 2025-01-08 12:41:17*</td>
+  </tr>
+</table>
 
-<img src="Snipaste_2025-01-08_12-41-45.png" style="border:1px solid black">  
-*后台订单管理 - 2025-01-08 12:41:45*
+<table>
+  <tr>
+    <td style="border:1px solid black"><img src="Snipaste_2025-01-08_12-41-45.png"></td>
+  </tr>
+  <tr>
+    <td>*后台订单管理 - 2025-01-08 12:41:45*</td>
+  </tr>
+</table>
 
 ## 关注我们
 
