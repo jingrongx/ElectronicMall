@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+# 如果请求的不是真实文件或目录，则重写图片请求
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^assets/images/products/(.+)\.(jpg|jpeg|png|gif)$ assets/images/products/image.php [L]

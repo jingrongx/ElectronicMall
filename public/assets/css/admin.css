@@ -1,0 +1,158 @@
+/* 后台管理系统样式 */
+:root {
+    --admin-spacing: 1.5rem;
+    --sidebar-width: 240px;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #f5f6fa;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+    width: var(--sidebar-width);
+    min-height: calc(100vh - 56px);
+    background-color: #fff;
+    border-right: 1px solid #eee;
+    position: fixed;
+    left: 0;
+    padding: var(--admin-spacing);
+}
+
+/* 主内容区域 */
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: var(--admin-spacing);
+}
+
+/* 导航栏样式 */
+.navbar {
+    padding: 0.5rem 1.5rem;
+    background-color: #fff !important;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+/* 卡片样式 */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: var(--admin-spacing);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* 表格样式 */
+.table {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.table td, .table th {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* 表单样式 */
+.form-control, .form-select {
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+}
+
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* 按钮样式 */
+.btn {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+/* 统计卡片 */
+.stats-card {
+    transition: transform 0.2s;
+    padding: 1.5rem;
+}
+
+.stats-card:hover {
+    transform: translateY(-3px);
+}
+
+/* 列表组样式 */
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.25rem;
+    border-radius: 6px !important;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item.active {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+/* 分页样式 */
+.pagination {
+    margin-bottom: 0;
+}
+
+.page-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 14px;
+}
+
+/* 模态框样式 */
+.modal-header {
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fa;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        min-height: auto;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}

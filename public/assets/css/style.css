@@ -1,0 +1,71 @@
+/* 基础样式 */
+:root {
+    --main-spacing: 1.5rem;  /* 基础间距 */
+    --container-padding: 2rem;  /* 容器内边距 */
+}
+
+body {
+    font-size: 14px;  /* 调整基础字体大小 */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 容器宽度调整 */
+.container {
+    max-width: 1400px;  /* 增加最大宽度 */
+    padding: 0 var(--container-padding);
+}
+
+/* 卡片样式优化 */
+.card {
+    margin-bottom: var(--main-spacing);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-body {
+    padding: var(--main-spacing);
+}
+
+/* 表格样式优化 */
+.table {
+    font-size: 14px;
+}
+
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+.table td, .table th {
+    padding: 0.75rem 1rem;
+}
+
+/* 表单样式优化 */
+.form-control, .form-select {
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+}
+
+/* 按钮样式优化 */
+.btn {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+}
+
+/* 导航栏样式优化 */
+.navbar {
+    padding: 0.5rem var(--container-padding);
+}
+
+/* 页面间距优化 */
+.section-padding {
+    padding: var(--main-spacing) 0;
+}
+
+/* 响应式优化 */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1600px;  /* 大屏幕下更宽 */
+    }
+}
